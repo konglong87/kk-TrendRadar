@@ -26,7 +26,7 @@ crawler:
 # 推送模式选择
 report:
   mode: "daily" # 可选: "daily"|"incremental"|"current"
-  rank_threshold: 5 # 排名高亮阈值
+  rank_threshold: 9 # 排名高亮阈值
 
 notification:
   enable_notification: true # 是否启用通知功能，如果 false，则不发送手机通知
@@ -99,3 +99,27 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+# === 社交/短视频/娱乐类 ===
+  - id: "bilibili-hot-search"
+    name: "bilibili 热搜"
+  - id: "hupu"
+    name: "虎扑"
+# === 科技类平台 ===
+  - id: "juejin"
+    name: "掘金"
+  - id: "github"
+    name: "GitHub"
+  - id: "hackernews"
+    name: "Hacker News"
+  - id: "solidot"
+    name: "Solidot"
+  - id: "v2ex"
+    name: "V2EX"
+  - id: "nowcoder"
+    name: "牛客网"
+  - id: "pcbeta"
+    name: "远景论坛"
+  - id: "sspai"
+    name: "少数派"
+  - id: "producthunt"
+    name: "ProductHunt"
